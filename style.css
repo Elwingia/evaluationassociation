@@ -4,10 +4,6 @@
 
 }
 
-
-
-
-
 .quote 
 {
     display: flex;
@@ -34,6 +30,12 @@
 .event
  {
      margin-bottom: 100px;
+     
+ }
+
+ .card
+ {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
  }
 
  .style_1
@@ -98,3 +100,5 @@
     font-weight: bold;
     letter-spacing: 0.5px;
 }
+
+
