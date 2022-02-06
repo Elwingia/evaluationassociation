@@ -1,3 +1,5 @@
+     
+
 body
 {
     margin: 0;
@@ -12,6 +14,8 @@ body
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3); 
 
 }
+
+/* MAIN */
 
 .quote 
 {
@@ -46,6 +50,11 @@ body
  {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);    
  }
+
+
+  /* MAIN */
+
+ /* CONTACT FORM */
 
  .style_1
 {
@@ -110,6 +119,8 @@ body
     letter-spacing: 0.5px;
 }
 
+ /* CONTACT FORM */
+
 
 
 /* STYLE EVENEMENT PAGE */
@@ -128,5 +139,34 @@ h1
 .card-event
 {
     margin: 0;
+
+}
+
+/* STYLE EVENEMENT PAGE */
+
+
+/* MEDIA QUERIE */
+
+@media all and (max-device-width: 480px)
+{
+  
+    header, body, footer 
+    {
+        width: 480px;
+    }
+    .card-group
+    {
+        width: 480px;
+    }
+    
+    .style_1
+    {
+       max-width: 480px;
+    }   
+
+    .accordion
+     {
+        margin-left: 0;
+    }
 
 }
