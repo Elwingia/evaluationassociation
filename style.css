@@ -152,7 +152,7 @@ h1
 {
     .card-group
     {
-        display: flex;
+        display: flex; 
         flex-direction: column;
     }
     
